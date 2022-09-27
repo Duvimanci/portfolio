@@ -1,0 +1,137 @@
+
+.formacion-padre{
+    background-color: var(--color-fondo-secciones);
+}
+
+.div-formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: var(--color-fondo-secciones);
+    padding: 0% 9%;
+}
+
+.div-formacion h2{
+    height: 38px;
+    padding-top: 10px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.ul-formacion{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2%;
+    width: 97%;
+}
+.ul-formacion li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3%;
+    width: 50%;
+}
+.ul-formacion li h3{
+    width: 85%;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #464646;
+}
+.ul-formacion li div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 98%;
+    background: #FFFFFF;
+}
+.ul-formacion li div img{
+    width: 192px;
+    height: 130px;
+}
+.ul-formacion li p{
+    height: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+}
+
+/*hasta 768pixeles de pantalla*/
+@media screen and (max-width:768px){
+
+    .div-formacion{
+        padding: 0% 6%;
+    }
+    .div-formacion h2{
+        font-size: 26px;
+    }
+    .ul-formacion{
+        display: flex;
+        padding-bottom: 23%;
+    }
+    .ul-formacion li{
+        flex-direction: column;
+    }    
+
+    .ul-formacion li h3{
+        height: 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .ul-formacion li div img{
+        width: 70%;
+        height: 110px;
+    }
+
+}
+
+/*360*/
+@media screen and (max-width:425px){
+
+    .div-formacion{
+        padding:0% 3%;
+        width:94%;
+    }
+
+    .ul-formacion{
+        width: 85%;
+        padding-left: 1%;
+        padding-bottom: 21%;
+    }
+
+    .ul-formacion li div{
+        width: 85%;
+        padding: 2%;
+    }
+
+    .ul-formacion li div img {
+        width: 68%;
+        height: 75px;
+    }
+
+    .ul-formacion li h3{
+        font-size: 12px;
+        height: 35px 
+    }
+
+    .ul-formacion li p {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,141 @@
+.section-mi-nombre{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;    
+    align-items: center;   
+    margin-bottom: 5%;
+    padding-left: 12%;
+}
+.mi-nombre{
+    gap: 24px;
+    width: 67%;
+}
+.mi-nombre h2{    
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 61px;
+    color: #464646;
+}
+.mi-nombre p{   
+
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #464646;
+    align-self: stretch;
+    margin-bottom: 53px;
+}
+.mi-nombre ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    width: 35%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0%;
+}
+.mi-nombre ul li{
+    width: 85%;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.mi-nombre ul li a{
+    text-decoration: none;  
+    color: #464646;        
+}
+
+.foto-porfolio{   
+    width:45%;
+    flex: none;
+    text-align: center;
+    padding-top:2%;
+}
+
+.imagen-porfolio{
+    border-radius: 49%;
+}
+
+
+
+/*hasta 768pixeles de pantalla*/
+@media screen and (max-width:768px){
+
+    .section-mi-nombre{
+        width: 88%;
+        padding: 1%;
+        gap: 2%;
+        margin: 0 auto;    
+        align-items: center;   
+    }
+    .mi-nombre{
+        width: 67%;
+     
+    }
+    .mi-nombre h2{    
+        height: 26%;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;  
+        padding: 2%;
+    }
+    .mi-nombre p{   
+        font-size: 16px;
+        line-height: 22px;
+        margin:2%;
+    }
+
+    .foto-porfolio {   
+        width: 34%;
+    }
+    .foto-porfolio img{   
+        width: 98%;
+    }
+
+    .mi-nombre ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 3%;
+        gap: 1%;
+        margin-top: 7%;
+        width: 85%;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .mi-nombre ul li {
+        width: 44%;
+        font-size: 14px;
+    }
+
+
+}
+
+/*360*/
+@media screen and (max-width:425px){
+
+    .mi-nombre ul {
+        width:100%;   
+    }
+
+
+    .mi-nombre ul li {
+        width: 48%;
+        font-size: 13px;
+    }
+
+}

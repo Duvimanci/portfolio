@@ -1,0 +1,63 @@
+
+section.about-padre{
+    background-color: var(--color-fondo-secciones);
+}
+
+section.about-padre .about{
+    padding: 6% 0%;
+    padding-left: 12%;
+    width: 88%;
+    background-color: var(--color-fondo-secciones);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+
+section.about-padre .about div.about__container{
+    width: 75%;
+}
+
+section.about-padre .about h3.about__title{
+    font-size: 32px;
+}
+
+section.about-padre .about div.about__container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/*hasta 768pixeles de pantalla*/
+@media screen and (max-width:768px){
+
+    section.about-padre .about {
+        padding-left: 2%;
+        width: 98%;
+        background-color: var(--color-fondo-secciones);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    section.about-padre{
+        padding: 0% 6%;
+    }
+    
+
+    section.about-padre .about div.about__container{
+        width: 85%;
+    }
+
+}
+
+/*360*/
+@media screen and (max-width:425px){
+   
+    section.about-padre{
+        width: 88%;
+    }
+
+}

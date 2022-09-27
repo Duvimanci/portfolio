@@ -1,0 +1,48 @@
+
+.menu{
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 88px;
+    flex: none;
+    margin: 0 auto;
+}
+.div-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 140px;
+    height: 24px;
+}
+.logo{
+    width: 23px;
+}
+.div-logo a{
+    text-decoration: none;
+    color: #464646;  
+}
+.logo{   
+    width: 24px;
+    height: 24px;
+}
+.texto-logo{
+    width: 140px;
+    height: 20px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;  
+}
+
+/*hasta 768pixeles de pantalla*/
+@media screen and (max-width:768px){
+
+    .logo{
+        width: 17%;
+    }
+}

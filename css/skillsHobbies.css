@@ -1,0 +1,97 @@
+
+.div-skills, .div-hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    gap: 32px;
+    width: 96%;
+    margin: 10px auto;
+}
+.div-skills h2, .div-hobbies h2{
+    height: 38px;
+    padding-top: 10px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+.ul-skills, .ul-hobbies{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    padding-left: 10%;
+    gap: 16px;
+    width: 90%;
+
+}
+.ul-skills li, .ul-hobbies li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* padding: 16px; */
+    padding: 1%;
+    gap: 8px;
+    width: 12%;
+    height: 174px;
+    background: #FFFFFF;
+}
+.ul-skills li h3, .ul-hobbies li h3{
+    width: 95%;
+    height: 19px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+    flex: none;
+}
+.ul-skills li img, .ul-hobbies li img{
+    height: 37px;
+}
+
+/*hasta 768pixeles de pantalla*/
+@media screen and (max-width:768px){
+
+     .div-skills, .div-hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 2%;
+        gap: 3px;
+        width: 96%;
+        margin: 0 auto;
+    }
+    .div-skills h2, .div-hobbies h2 {
+        font-size: 26px;
+        line-height: 26px;
+        
+    }
+    .ul-skills, .ul-hobbies{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+        padding-left: 5%;
+
+    }
+    .ul-skills li, .ul-hobbies li{
+        padding: 2%;
+        gap: 8px;
+        width: 40%;
+        height: 50%;
+    }
+}
+
+/*360*/
+@media screen and (max-width:425px){
+
+}
